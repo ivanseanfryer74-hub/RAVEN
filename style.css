@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    padding: 60px 20px;
+}
+
+h1 {
+    color: gold;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: gold;
+    color: black;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    color: gold;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.product-card {
+    background-color: #1a1a1a;
+    border: 2px solid gold;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 40px auto;
+    max-width: 320px;
+}
+
+.product-card h3 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.product-card h4 {
+    color: gold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.product-card button {
+    width: 100%;
+}
+.product-card {
+    background-color: #1a1a1a;
+    border: 2px solid gold;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 40px auto;
+    max-width: 320px;
+}
+
+.product-card h3 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.product-card h4 {
+    color: gold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.product-card button {
+    width: 100%;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
