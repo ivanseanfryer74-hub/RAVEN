@@ -112,3 +112,112 @@ nav a {
 nav a:hover {
     color: white;
 }
+/* ================= SHOP PAGE ================= */
+
+.shop{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+.shop h2{
+    color:#111;
+    font-size:30px;
+    margin-top:50px;
+    margin-bottom:25px;
+    border-left:6px solid red;
+    padding-left:15px;
+}
+
+.product{
+    background:#ffffff;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.product:hover{
+    transform:translateY(-8px);
+}
+
+.product h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.product p{
+    color:#555;
+    margin:8px 0;
+}
+
+.product button{
+    margin-top:15px;
+    background:#000;
+    color:#fff;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.product button:hover{
+    background:red;
+}
+/* ===========================
+   RAVEN LIGHT & DARK THEME
+=========================== */
+
+:root{
+    --bg:#ffffff;
+    --text:#111111;
+    --card:#ffffff;
+    --accent:#d40000;
+    --shadow:rgba(0,0,0,.10);
+}
+
+@media (prefers-color-scheme: dark){
+
+:root{
+    --bg:#0f0f0f;
+    --text:#ffffff;
+    --card:#1b1b1b;
+    --accent:#ff2d2d;
+    --shadow:rgba(255,255,255,.05);
+}
+
+}
+
+body{
+    background:var(--bg);
+    color:var(--text);
+    transition:.3s;
+}
+
+header{
+    background:var(--bg);
+    color:var(--text);
+}
+
+.product{
+    background:var(--card);
+    color:var(--text);
+    box-shadow:0 10px 25px var(--shadow);
+    border-radius:18px;
+}
+
+button{
+    background:var(--accent);
+    color:white;
+    border:none;
+    border-radius:30px;
+    padding:14px 28px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
