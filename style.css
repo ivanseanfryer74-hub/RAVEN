@@ -221,3 +221,146 @@ button{
 button:hover{
     transform:scale(1.05);
 }
+
+/* ======= RAVEN NAVIGATION ======= */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:var(--bg);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:900;
+    letter-spacing:3px;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--text);
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:var(--accent);
+}
+
+/* ======= HERO SECTION ======= */
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero h2{
+    font-size:60px;
+    font-weight:900;
+    margin-bottom:20px;
+    letter-spacing:4px;
+    color:var(--text);
+}
+
+.hero p{
+    max-width:650px;
+    font-size:20px;
+    line-height:1.8;
+    color:var(--text);
+    margin-bottom:35px;
+}
+
+.hero button{
+    background:var(--accent);
+    color:#fff;
+    border:none;
+    padding:16px 40px;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:40px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.hero button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(212,0,0,0.3);
+}
+
+/* ======= FEATURED COLLECTION ======= */
+
+.featured{
+    padding:80px 8%;
+}
+
+.featured h2{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+    color:var(--text);
+}
+
+.featured .product{
+    max-width:320px;
+    margin:20px auto;
+    text-align:center;
+    overflow:hidden;
+}
+
+.featured .product img{
+    width:100%;
+    max-width:250px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.featured .product h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.featured .product p{
+    margin-bottom:20px;
+    color:#777;
+}
+
+.featured .product button{
+    width:100%;
+}
+
+/* ======= FOOTER ======= */
+
+footer{
+    background:var(--card);
+    text-align:center;
+    padding:50px 20px;
+    margin-top:60px;
+    border-top:2px solid var(--accent);
+}
+
+footer h2{
+    font-size:32px;
+    margin-bottom:10px;
+    color:var(--text);
+    letter-spacing:2px;
+}
+
+footer p{
+    color:var(--text);
+    margin:8px 0;
+}
