@@ -1007,3 +1007,142 @@ footer{
 .faq-item p{
     line-height:1.8;
 }
+/* ===== VERSION 2 HERO ===== */
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:80px 8%;
+    background:#111;
+    color:#fff;
+}
+
+.hero-content{
+    max-width:800px;
+}
+
+.hero h1{
+    font-size:72px;
+    letter-spacing:8px;
+    margin-bottom:20px;
+}
+
+.hero-subtitle{
+    font-size:20px;
+    margin-bottom:25px;
+    color:#ddd;
+}
+
+.hero-text{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:45px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn-primary,
+.btn-secondary{
+    padding:18px 36px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:#fff;
+    color:#111;
+}
+
+.btn-primary:hover{
+    background:#c1121f;
+    color:#fff;
+}
+
+.btn-secondary{
+    border:2px solid #fff;
+    color:#fff;
+}
+
+.btn-secondary:hover{
+    background:#fff;
+    color:#111;
+}
+/* ===== OUR STORY ===== */
+
+.story{
+    background:#fff;
+    color:#111;
+    text-align:center;
+    padding:90px 8%;
+}
+
+.story h2{
+    font-size:48px;
+    margin-bottom:25px;
+}
+
+.story p{
+    max-width:750px;
+    margin:0 auto 35px;
+    font-size:18px;
+    line-height:1.9;
+}
+
+.story-btn{
+    display:inline-block;
+    padding:16px 38px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:40px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.story-btn:hover{
+    background:#c1121f;
+}
+/* ===== PREMIUM NAVBAR ===== */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#111;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar h1{
+    color:#fff;
+    letter-spacing:4px;
+}
+
+.navbar nav{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.navbar nav a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.navbar nav a:hover{
+    color:#c1121f;
+}
