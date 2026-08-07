@@ -3,31 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RAVEN Product</title>
+<title>RAVEN | Product</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>RAVEN</h1>
-<p>GOD DID</p>
+<header class="navbar">
+    <h1>RAVEN</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="cart.html">Cart</a>
+        <a href="wishlist.html">Wishlist</a>
+    </nav>
 </header>
 
-<section class="product">
+<section class="product-page">
+
+<div class="product-image">
+
+<img src="images/classic-hoodie.jpg" alt="Classic Hoodie">
+
+</div>
+
+<div class="product-info">
 
 <h2>Classic Hoodie</h2>
 
-<img src="images/classic-hoodie.jpg" alt="Classic Hoodie" width="300">
-
-<h3>$45</h3>
+<h3>$45.00</h3>
 
 <p>
-Premium RAVEN hoodie made with high-quality fabric for comfort,
-style, and durability.
+Premium RAVEN hoodie crafted for comfort, quality and everyday streetwear.
+Placeholder image for now--official RAVEN collection coming soon.
 </p>
 
-<h4>Select Size</h4>
+<label>Size</label>
 
 <select>
 <option>S</option>
@@ -36,34 +48,83 @@ style, and durability.
 <option>XL</option>
 </select>
 
-<h4>Select Color</h4>
+<label>Color</label>
 
 <select>
 <option>Black</option>
 <option>White</option>
-<option>Red</option>
 <option>Grey</option>
+<option>Red</option>
+<option>Pink</option>
+<option>Blue</option>
+<option>Purple</option>
 </select>
-
-<br><br>
 
 <label>Quantity</label>
 
 <input type="number" value="1" min="1">
 
-<br><br>
+<div class="buttons">
 
 <button>Add To Cart</button>
 
 <button>Add To Wishlist ❤</button>
 
-<h3>Delivery</h3>
+</div>
+
+<h4>Description</h4>
 
 <p>
-Estimated delivery: 3–7 business days.
+Designed for everyday wear with premium materials.
+More product details will be added as the official RAVEN collection is completed.
 </p>
 
+<h4>Delivery</h4>
+
+<p>
+Estimated delivery:
+3–5 Business Days.
+</p>
+
+</div>
+
 </section>
+<section class="related-products">
+
+<h2>You May Also Like</h2>
+
+<div class="product-grid">
+
+<div class="product-card">
+<img src="images/classic-tshirt.jpg" alt="Classic T-Shirt">
+<h3>Classic T-Shirt</h3>
+<p>$25.00</p>
+<a href="product.html">View Product</a>
+</div>
+
+<div class="product-card">
+<img src="images/crop-hoodie.jpg" alt="Crop Hoodie">
+<h3>Crop Hoodie</h3>
+<p>$40.00</p>
+<a href="product.html">View Product</a>
+</div>
+
+<div class="product-card">
+<img src="images/jogger-set.jpg" alt="2-Piece Set">
+<h3>2-Piece Set</h3>
+<p>$70.00</p>
+<a href="product.html">View Product</a>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 RAVEN -- GOD DID</p>
+
+</footer>
 
 </body>
 </html>
