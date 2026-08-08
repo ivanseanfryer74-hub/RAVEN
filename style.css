@@ -1576,3 +1576,61 @@ button {
 .hero .hero-content h1 {
     color: #fff !important;
 }
+/* ===== RAVEN LIGHT / DARK MODE ===== */
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background: #111;
+        color: #fff;
+    }
+
+    .featured {
+        background: #111;
+        color: #fff;
+    }
+
+    .featured-card {
+        background: #1c1c1c;
+        color: #fff;
+    }
+
+    .featured-card p {
+        color: #ccc;
+    }
+
+    .story {
+        background: #000;
+        color: #fff;
+    }
+
+    .best-sellers {
+        background: #111;
+        color: #fff;
+    }
+
+    .best-sellers .product-card {
+        background: #1c1c1c;
+        color: #fff;
+    }
+
+    .about,
+    .contact,
+    .faq {
+        background: #111;
+        color: #fff;
+    }
+
+    .faq-item {
+        background: #1c1c1c;
+        color: #fff;
+    }
+
+    .contact input,
+    .contact textarea {
+        background: #1c1c1c;
+        color: #fff;
+        border-color: #444;
+    }
+
+}
