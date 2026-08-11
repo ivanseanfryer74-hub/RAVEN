@@ -1633,3 +1633,30 @@ button {
         border-color: #555 !important;
     }
 }
+    /* ===== RAVEN FAQ FINAL LIGHT / DARK MODE ===== */
+
+.faq-item {
+    background-color: #ffffff !important;
+    color: #111111 !important;
+}
+
+.faq-item h3,
+.faq-item h4,
+.faq-item p,
+.faq-item strong {
+    color: #111111 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .faq-item {
+        background-color: #1c1c1c !important;
+        color: #ffffff !important;
+    }
+
+    .faq-item h3,
+    .faq-item h4,
+    .faq-item p,
+    .faq-item strong {
+        color: #ffffff !important;
+    }
+}
